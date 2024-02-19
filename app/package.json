@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node esbuild.js",
+    "view": "serve -l 8888 -s ./build"
+  },
+  "keywords": [],
+  "author": "Nelson Araujo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "esbuild": "^0.20.0",
+    "esbuild-plugin-copy": "^2.1.1",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "my-lib": "link:../lib/dist",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

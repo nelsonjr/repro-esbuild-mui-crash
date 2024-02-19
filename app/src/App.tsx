@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import { MyButton } from "my-lib/button1";
+import React, { useState } from "react";
 
 export const App: React.FC = () => {
   const [counter, setCounter] = useState(0);

@@ -41,7 +41,7 @@ Then open your browser at [http://localhost:8888](http://localhost:8888)
 ### Error
 
 ```
-arning: React instrumentation encountered an error: TypeError: e.hasOwnProperty is not a function.
+Warning: React instrumentation encountered an error: TypeError: e.hasOwnProperty is not a function.
 printWarning @ index.js:2425
 error @ index.js:2409
 injectInternals @ index.js:6035
@@ -54,6 +54,7 @@ __require @ index.js:8
 node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js @ index.js:23482
 __require @ index.js:8
 (anonymous) @ index.js:26286
+
 index.js:23640 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
 1. You might have mismatching versions of React and the renderer (such as React DOM)
 2. You might be breaking the Rules of Hooks
@@ -75,6 +76,7 @@ performConcurrentWorkOnRoot @ index.js:20578
 workLoop @ index.js:2101
 flushWork @ index.js:2080
 performWorkUntilDeadline @ index.js:2288
+
 index.js:23640 Warning: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
 1. You might have mismatching versions of React and the renderer (such as React DOM)
 2. You might be breaking the Rules of Hooks
@@ -99,6 +101,7 @@ performConcurrentWorkOnRoot @ index.js:20578
 workLoop @ index.js:2101
 flushWork @ index.js:2080
 performWorkUntilDeadline @ index.js:2288
+
 index.js:24566 Uncaught TypeError: Cannot read properties of null (reading 'useContext')
     at Object.useContext6 (index.js:24566:29)
     at Button2 (index.js:33174:32)

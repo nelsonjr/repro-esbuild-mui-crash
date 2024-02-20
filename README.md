@@ -1,3 +1,5 @@
+> See https://github.com/evanw/esbuild/issues/3655 for discussion
+
 # Material UI 💔 esbuild
 
 esbuild does not generate a runnable bundle if the library uses Material UI :-(
